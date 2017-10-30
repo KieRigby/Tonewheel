@@ -19,5 +19,12 @@ function setup() {
 function draw() {
   background(51);
 
+  textSize(20);
+  textAlign(CENTER);
+  fill(255,255,255);
+  for(var i = 0; i < NUM_OF_DRAWBARS; i++){
+    text(8-drawbars[i].value(), 33+i*30, 200);
+  }
+
 
 }
