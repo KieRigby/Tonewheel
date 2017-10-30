@@ -1,0 +1,12 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+
+.drawbar{
+  writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+  width:20px;
+  height:150px;
+}
